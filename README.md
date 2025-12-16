@@ -10,4 +10,4 @@ Sequence Normalization: Cleans whitespace, removes line breaks, and converts all
 Strict Validation: Ensures the sequence only contains valid DNA bases (A, T, G, C). If an invalid character is found, the tool reports exactly what it is.
 
 Accurate Metrics: Provides sequence length, total G+C count, and the final GC percentage.
-![Terminal Output Example](images/terminal_output1.png)
+
