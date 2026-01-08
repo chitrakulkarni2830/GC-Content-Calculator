@@ -11,6 +11,8 @@ def analyze_dna(raw_data):
     if not all(base in "ATGC" for base in clean_dna):
         return None, "Sequence contains non-DNA characters."
 
+
+
     g_count = clean_dna.count('G')
     c_count = clean_dna.count('C')
     gc_percent = ((g_count + c_count) / len(clean_dna)) * 100
